@@ -141,6 +141,6 @@ mod tests {
     #[test]
     fn solve2_real() {
         let input = fs::read_to_string(INPUT_PATH).expect("input file is present");
-        assert_eq!(solve2(&input), 581941094529163);
+        assert_eq!(solve2(&input), 1246);
     }
 }
